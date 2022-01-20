@@ -1,0 +1,17 @@
+﻿@if (this.Movie != null)
+{
+    <tr>
+        <td>
+        <NavLink href="@($"movie/{Movie.Id}")">@Movie.Title
+        </NavLink></td>
+        <td>@Movie.YearReleased</td>
+        <td>@Movie.Description</td>
+    </tr>
+}
+
+
+@code {
+
+    [Parameter]
+    public Movie Movie { get; set; }
+}

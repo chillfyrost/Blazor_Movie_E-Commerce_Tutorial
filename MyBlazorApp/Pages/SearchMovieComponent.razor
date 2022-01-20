@@ -1,0 +1,54 @@
+﻿@page "/movies"
+
+@inject ISearchMovie searchMovie
+
+<h3>Movies</h3>
+<br />
+<SearchBarComponent OnSearch="HandleSearch"></SearchBarComponent>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year released</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (movies != null && movies.Count() > 0)
+        {
+            @foreach (var movie in movies)
+            {
+                <MovieItemComponent Movie="movie"></MovieItemComponent>
+            }
+        }
+        else
+        {
+                <tr>
+                    <td>No Movies to View.</td>
+                </tr>
+        }
+
+    </tbody>
+</table>
+
+
+@code {      
+
+    private IEnumerable<Movie> movies;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        movies = searchMovie.Execute();
+
+    }
+
+    private void HandleSearch(string filter)
+    {
+        movies = searchMovie.Execute(filter);
+    }
+
+}

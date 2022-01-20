@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "MyBlazorApp.MockDataStore/1.0.0": {
+        "dependencies": {
+          "MyBlazorApp.UseCases": "1.0.0"
+        },
+        "runtime": {
+          "MyBlazorApp.MockDataStore.dll": {}
+        }
+      },
+      "MyBlazorApp.CoreBusiness/1.0.0": {
+        "runtime": {
+          "MyBlazorApp.CoreBusiness.dll": {}
+        }
+      },
+      "MyBlazorApp.UseCases/1.0.0": {
+        "dependencies": {
+          "MyBlazorApp.CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "MyBlazorApp.UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlazorApp.MockDataStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyBlazorApp.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyBlazorApp.UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

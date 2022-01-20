@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "MyBlazorApp.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MyBlazorApp.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBlazorApp.CoreBusiness.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlazorApp.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../MyBlazorApp.CoreBusiness/MyBlazorApp.CoreBusiness.csproj",
+      "msbuildProject": "../MyBlazorApp.CoreBusiness/MyBlazorApp.CoreBusiness.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "MyBlazorApp.CoreBusiness >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pb\\source\\repos\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp.UseCases\\MyBlazorApp.UseCases.csproj",
+      "projectName": "MyBlazorApp.UseCases",
+      "projectPath": "C:\\Users\\pb\\source\\repos\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp.UseCases\\MyBlazorApp.UseCases.csproj",
+      "packagesPath": "C:\\Users\\pb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pb\\source\\repos\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp.UseCases\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\pb\\source\\repos\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp.CoreBusiness\\MyBlazorApp.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\pb\\source\\repos\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp\\Blazor_Movie_E-Commerce_Tutorial\\MyBlazorApp.CoreBusiness\\MyBlazorApp.CoreBusiness.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

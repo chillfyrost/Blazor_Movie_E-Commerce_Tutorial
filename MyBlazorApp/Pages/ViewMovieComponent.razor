@@ -1,0 +1,32 @@
+﻿@page "/movie/{id:int}"
+
+@inject IViewMovie viewMovie
+
+<h3>Movie Details</h3>
+<div class="card" style="width: 28rem;">
+    <div class="card-body">
+        <img src="@movie.ImageLink" />
+        <br />
+        <h5 class="card-title">@movie.Title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@movie.YearReleased</h6>
+        <hr />
+        <p class="card-text">@movie.Description</p>
+    </div>
+</div>
+<br />
+<NavLink href="movies">Back to Movies</NavLink>
+
+@code {
+    private Movie movie;
+
+    [Parameter] // routing parameter
+    public int Id { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+        if (Id > 0)
+            movie = viewMovie.Execute(Id);
+    }
+}

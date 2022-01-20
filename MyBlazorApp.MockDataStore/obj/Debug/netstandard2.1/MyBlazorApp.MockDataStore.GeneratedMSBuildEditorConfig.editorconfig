@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MyBlazorApp.MockDataStore
+build_property.ProjectDir = C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.MockDataStore\
