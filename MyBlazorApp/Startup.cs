@@ -5,8 +5,10 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MyBlazorApp.CoreBusiness.Services;
 using MyBlazorApp.Data;
 using MyBlazorApp.MockDataStore;
+using MyBlazorApp.Store.CounterStore;
 using MyBlazorApp.UseCases.PluginInterfaces.DataStore;
 using MyBlazorApp.UseCases.SearchMovieScreen;
 using System;
@@ -36,6 +38,15 @@ namespace MyBlazorApp
             services.AddTransient<IMovieRepository, MovieRepository>();
             services.AddTransient<ISearchMovie, SearchMovie>();
             services.AddTransient<IViewMovie, ViewMovie>();
+
+            services.AddScoped<CounterStore>();
+
+            //Transient New instance each time the class is loaded
+            services.AddTransient<ICustomerService, CustomerService>();
+
+            //scoped - not a new same instance until you refresh or close and re-open the application
+
+            //singleton - no change (single instance) lifespan of the the application
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

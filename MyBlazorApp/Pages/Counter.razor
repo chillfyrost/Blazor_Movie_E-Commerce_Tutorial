@@ -1,20 +1,43 @@
 ﻿@page "/counter"
+@implements IDisposable
+@inject CounterStore counterStore
 
 <h1>Counter</h1>
 
-<p>Current count: @currentCount</p>
+<p>Current count: @counterStore.GetState().Count</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 <br />
-<CascadingValue Name="Counter" Value="@currentCount">
+<CascadingValue Name="ComponentCounter" Value="@counterStore.GetState().Count">
     <Component1></Component1>
 </CascadingValue>
 
-@code {
-    private int currentCount = 0;
+@code {        
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        counterStore.AddStateChangeListeners(UpdateView);
+    }
 
     private void IncrementCount()
     {
-        currentCount++;
+        counterStore.IncrementCount();
+    }
+
+    //protected override void OnAfterRender(bool firstRender)
+    //{
+    //    base.OnAfterRender(firstRender);
+    //}
+
+
+    private void UpdateView()
+    {
+        StateHasChanged();
+    }
+    public void Dispose()
+    {
+        counterStore.RemoveStateChangeListeners(UpdateView);
     }
 }

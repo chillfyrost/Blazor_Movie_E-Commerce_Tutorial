@@ -8,3 +8,13 @@ C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.CoreBusiness\bin\Debug\netstand
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.dll
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.pdb
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.csproj.AssemblyReference.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\bin\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.deps.json
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\bin\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.dll
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\bin\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.pdb
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.csproj.AssemblyReference.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.AssemblyInfo.cs
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.dll
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.CoreBusiness\obj\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.pdb

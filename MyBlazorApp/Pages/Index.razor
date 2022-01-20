@@ -1,4 +1,7 @@
 ﻿@page "/"
+@inject ICustomerService customerService 
+@implements IDisposable
+
 
 <h1>Welcome</h1>
 <br /><br />
@@ -53,6 +56,62 @@ Movie Title: @movie.Title
     <br />
     <button @onclick="Toggle">Toggle Visibility</button>
 </p>
+<br />
+<br />
+<p>
+    <h3 class="text-info">Templated Component Render Fragment Example</h3>
+    <TemplatedComponent Items="movies" TItem="Movie">
+        
+        <Header>
+            <p><b>Welcome to my site</b></p>
+            
+        </Header>
+        <RepeaterItem Context="item">
+            <p><img class="img-thumbnail" src="@item.ImageLink" /></p>
+            <p class="font-weight-bold text-primary">Title: @item.Title</p>
+            <p>Title: @item.YearReleased</p>
+            <p>Title: @item.Description</p>
+            <hr />
+        </RepeaterItem>
+        <Footer>
+            <div style="font-size:10px;">
+                Feel free to leave a comment!
+            </div>
+        </Footer>
+    </TemplatedComponent>
+</p>
+<br /><br />
+<h3> Form Exercise</h3>
+<p class="p-3">
+    <EditForm Model="person" OnValidSubmit="ValidFormSubmitted">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
+        <label>First Name</label><br />
+        <InputText id="fname" @bind-Value="person.FirstName"></InputText>
+        <br />
+        <label>Last Name</label><br />
+        <InputText id="lname" @bind-Value="person.LastName"></InputText>
+        <br />
+        <label>Employee Number</label><br />
+        <InputNumber id="emp_number" @bind-Value="person.EmployeeNumber"></InputNumber>
+        <br />
+        <label>Email</label><br />
+        <InputText id="email" @bind-Value="person.Email"></InputText>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+    </EditForm>
+</p>
+<br /><br />
+<text>Guid: </text>@customerService.UId
+<br />
+<p>
+    @if (customer != null)
+    {
+    <b>Customer in View: </b>  @customer.Name<br />
+
+    }
+</p>
 @code {
     private VisibilityComponent visibilityComponent;
     private int selectedMovieId = 0;
@@ -70,5 +129,45 @@ Movie Title: @movie.Title
     void Toggle()
     {
         this.visibilityComponent.SetVisibility();
+    }
+
+    Person person = new Person();
+
+    class Person
+    {
+        [Required]
+        [StringLength(100)]
+        public string FirstName { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string LastName { get; set; }
+
+        [Required]
+        [Range(1,1000)]
+        public int EmployeeNumber { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+    }
+
+    private void ValidFormSubmitted()
+    {
+
+    }
+
+    //Customer Service Section
+    private Customer customer;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        customer = customerService.GetCustomerById(4);
+    }
+    public void Dispose()
+    {
+
     }
 }

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorApp.UseCases", "MyB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorApp.MockDataStore", "MyBlazorApp.MockDataStore\MyBlazorApp.MockDataStore.csproj", "{95756563-D269-4FA8-9785-F28C8839C141}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorApp.WebAssembly", "MyBlazorApp.WebAssembly\MyBlazorApp.WebAssembly.csproj", "{DB09DC2E-4391-4AC8-8DDE-AA49739AB0AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{95756563-D269-4FA8-9785-F28C8839C141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95756563-D269-4FA8-9785-F28C8839C141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95756563-D269-4FA8-9785-F28C8839C141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB09DC2E-4391-4AC8-8DDE-AA49739AB0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB09DC2E-4391-4AC8-8DDE-AA49739AB0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB09DC2E-4391-4AC8-8DDE-AA49739AB0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB09DC2E-4391-4AC8-8DDE-AA49739AB0AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

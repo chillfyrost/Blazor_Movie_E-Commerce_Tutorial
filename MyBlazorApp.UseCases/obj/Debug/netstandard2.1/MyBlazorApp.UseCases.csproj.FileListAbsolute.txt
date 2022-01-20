@@ -11,3 +11,16 @@ C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.UseCases\bin\Debug\netstandard2
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.csproj.CopyComplete
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.dll
 C:\Users\pb\source\repos\MyBlazorApp\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.pdb
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\bin\Debug\netstandard2.1\MyBlazorApp.UseCases.deps.json
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\bin\Debug\netstandard2.1\MyBlazorApp.UseCases.dll
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\bin\Debug\netstandard2.1\MyBlazorApp.UseCases.pdb
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\bin\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.dll
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\bin\Debug\netstandard2.1\MyBlazorApp.CoreBusiness.pdb
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.csproj.AssemblyReference.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.AssemblyInfoInputs.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.AssemblyInfo.cs
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.csproj.CopyComplete
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.dll
+C:\Users\pb\source\repos\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp\Blazor_Movie_E-Commerce_Tutorial\MyBlazorApp.UseCases\obj\Debug\netstandard2.1\MyBlazorApp.UseCases.pdb

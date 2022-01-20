@@ -1,0 +1,31 @@
+﻿@page "/"
+@inject ICustomerService customerService
+@implements IDisposable
+
+<text>Guid: </text>@customerService.UId
+<br />
+<p>
+    @if (customer != null)
+    {
+        <b>Customer in View: </b> @customer.Name<br />
+
+    }
+</p>
+
+@code {
+    //Customer Service Section
+    private Customer customer;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        customer = customerService.GetCustomerById(4);
+    }
+    public void Dispose()
+    {
+
+    }
+}
+
+
